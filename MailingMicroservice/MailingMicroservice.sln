@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mailing", "Mailing", "{71109FC4-0732-42F2-8678-49C5D48823C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Registering", "Registering", "{9F33740A-0311-4E5D-9880-5B46E189A081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingMicroservice.Registering.Application", "Registering\MailingMicroservice.Registering.Application\MailingMicroservice.Registering.Application.csproj", "{68012FA1-53EB-4D5C-9742-2630EEE1FCC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingMicroservice.Registering.WebAPI", "Registering\MailingMicroservice.Registering.WebAPI\MailingMicroservice.Registering.WebAPI.csproj", "{019BDA6A-BFB8-42B3-A529-87303F043688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingMicroservice.Mailing.Application", "Mailing\MailingMicroservice.Mailing.Application\MailingMicroservice.Mailing.Application.csproj", "{E36D9442-D346-4C4A-960A-1C06ACCB7AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailingMicroservice.Mailing.WebAPI", "Mailing\MailingMicroservice.Mailing.WebAPI\MailingMicroservice.Mailing.WebAPI.csproj", "{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68012FA1-53EB-4D5C-9742-2630EEE1FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68012FA1-53EB-4D5C-9742-2630EEE1FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68012FA1-53EB-4D5C-9742-2630EEE1FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68012FA1-53EB-4D5C-9742-2630EEE1FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{019BDA6A-BFB8-42B3-A529-87303F043688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{019BDA6A-BFB8-42B3-A529-87303F043688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{019BDA6A-BFB8-42B3-A529-87303F043688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{019BDA6A-BFB8-42B3-A529-87303F043688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36D9442-D346-4C4A-960A-1C06ACCB7AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36D9442-D346-4C4A-960A-1C06ACCB7AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36D9442-D346-4C4A-960A-1C06ACCB7AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36D9442-D346-4C4A-960A-1C06ACCB7AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68012FA1-53EB-4D5C-9742-2630EEE1FCC8} = {9F33740A-0311-4E5D-9880-5B46E189A081}
+		{019BDA6A-BFB8-42B3-A529-87303F043688} = {9F33740A-0311-4E5D-9880-5B46E189A081}
+		{E36D9442-D346-4C4A-960A-1C06ACCB7AD2} = {71109FC4-0732-42F2-8678-49C5D48823C9}
+		{9A72E23D-F9A3-46D7-98C3-E0C27D3A03F5} = {71109FC4-0732-42F2-8678-49C5D48823C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA3CB022-3783-44E5-A50D-17E0EF132222}
+	EndGlobalSection
+EndGlobal
